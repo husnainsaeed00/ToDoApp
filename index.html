@@ -1,0 +1,44 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <button id="menuBars"><span class="material-icons">menu</span></button>
+      <div class="logo" id="logo">ToDo <span class="color-shift">List</span></div>
+      <div class="theme"><span class="material-icons icon" id="icon">face</span></div>
+    </header>
+    <div class="navbar" id="navbar">
+        <div class="button-group">
+            <button class="nav-btn" id="allTasks">All tasks</button>
+            <button class="nav-btn" id="completeTasks">Completed</button>
+            <button class="nav-btn" id="uncompleteTasks">uncomplete</button>
+        </div>
+    </div>
+    <div class="content" id="content">
+        
+    </div>
+
+    <button class="start-button">
+        <span class="material-icons">add</span>
+    </button>
+
+
+    <div class="form-overly hidden " id="formOverly">
+        <div class="form-container" id="formContainer">
+            <h3>Lets make a List to crush it</h3>
+            <label for="title">Title: 
+            <input type="text" name="title" id="titleInput" placeholder="Enter your ToDo Item"/></label> 
+            <input type="submit" name="submit" id="submit" />
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
